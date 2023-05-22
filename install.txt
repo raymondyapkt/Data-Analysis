@@ -1,0 +1,85 @@
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\raymond>python
+Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pip install numpy
+  File "<stdin>", line 1
+    pip install numpy
+        ^^^^^^^
+SyntaxError: invalid syntax
+>>> q
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> quit
+Use quit() or Ctrl-Z plus Return to exit
+>>> ^Z
+
+
+C:\Users\raymond>pip install numpy
+Collecting numpy
+  Downloading numpy-1.24.3-cp311-cp311-win_amd64.whl (14.8 MB)
+     ---------------------------------------- 14.8/14.8 MB 5.0 MB/s eta 0:00:00
+Installing collected packages: numpy
+  WARNING: The script f2py.exe is installed in 'C:\Users\raymond\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed numpy-1.24.3
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: C:\Users\raymond\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+C:\Users\raymond>pip install pandas
+Collecting pandas
+  Downloading pandas-2.0.1-cp311-cp311-win_amd64.whl (10.6 MB)
+     ---------------------------------------- 10.6/10.6 MB 6.2 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (2.8.2)
+Collecting pytz>=2020.1
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     ---------------------------------------- 502.3/502.3 kB 7.8 MB/s eta 0:00:00
+Collecting tzdata>=2022.1
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ---------------------------------------- 341.8/341.8 kB 7.1 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.21.0 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pandas) (1.24.3)
+Requirement already satisfied: six>=1.5 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+Installing collected packages: pytz, tzdata, pandas
+Successfully installed pandas-2.0.1 pytz-2023.3 tzdata-2023.3
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: C:\Users\raymond\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+C:\Users\raymond>pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.7.1-cp311-cp311-win_amd64.whl (7.6 MB)
+     ---------------------------------------- 7.6/7.6 MB 4.9 MB/s eta 0:00:00
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.0.7-cp311-cp311-win_amd64.whl (162 kB)
+     ---------------------------------------- 163.0/163.0 kB 10.2 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.39.4-py3-none-any.whl (1.0 MB)
+     ---------------------------------------- 1.0/1.0 MB 3.8 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp311-cp311-win_amd64.whl (55 kB)
+     ---------------------------------------- 55.4/55.4 kB 2.8 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.20 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (23.1)
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.5.0-cp311-cp311-win_amd64.whl (2.5 MB)
+     ---------------------------------------- 2.5/2.5 MB 7.6 MB/s eta 0:00:00
+Collecting pyparsing>=2.3.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ---------------------------------------- 98.3/98.3 kB 5.9 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from matplotlib) (2.8.2)
+Requirement already satisfied: six>=1.5 in c:\users\raymond\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+Installing collected packages: pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, matplotlib
+  WARNING: The scripts fonttools.exe, pyftmerge.exe, pyftsubset.exe and ttx.exe are installed in 'C:\Users\raymond\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed contourpy-1.0.7 cycler-0.11.0 fonttools-4.39.4 kiwisolver-1.4.4 matplotlib-3.7.1 pillow-9.5.0 pyparsing-3.0.9
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: C:\Users\raymond\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+C:\Users\raymond>
